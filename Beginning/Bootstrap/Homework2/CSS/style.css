@@ -8,8 +8,20 @@
     background-repeat: no-repeat;
   }
 
+  .container, html, body{
+    background-color: #FAFAFA;
+  }
+
+  .rightpanel{
+    background-color: #FAFAFA;
+  }
+
   .card{
     margin-bottom: 0.5rem;
+  }
+  
+  .card-footer, .card-header{
+    background-color: white;
   }
 
   .middlearea{
@@ -62,3 +74,4 @@
     text-decoration: none;
     color: lightgrey;
   }
+  

@@ -1,0 +1,38 @@
+body{
+    font-family: 'PT Serif', serif;
+    letter-spacing: -1px;
+}
+
+.bg-light-blue{
+    background-color: #C4E2FF;
+}
+
+.bottom-border-dark{
+    border-bottom: 1px solid #414141;
+}
+
+.stay{
+    font-size: 106px;
+    letter-spacing: -5px;
+}
+
+.btn-s{
+    font-size: 20px;
+}
+
+.h3-d{
+    line-height: 1.5rem;
+}
+
+.trend-card{
+    font-size: 0.8rem;
+}
+
+.trend-card a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dot{
+    font-size: 50%;
+}

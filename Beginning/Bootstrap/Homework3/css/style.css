@@ -3,6 +3,8 @@
   background-color: white;
 }
 
+
+
 input.searche {
   height: 36px;
   max-width: 500px;
@@ -13,13 +15,14 @@ input.searche {
 input.searche::placeholder {
   font-size: 14px;
   color: gray;
-  background-image: url(/bootstraplinkedinclone/assets/search-solid.svg);
+  background-image: url(/assets/search-solid.svg);
   background-repeat: no-repeat;
   background-size: 7%;
+  background-position: 4%;
 }
 
 .body {
-  background-color: #f3f2ef;
+  background-color: #F3F2EF;
 }
 
 .menutext {

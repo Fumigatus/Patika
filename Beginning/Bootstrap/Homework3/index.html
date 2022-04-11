@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Linkedin</title>
-    <link rel="stylesheet" href="/bootstraplinkedinclone/css/style.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
@@ -20,7 +20,9 @@
   </head>
   <body class="body">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark navbarbg">
+    <div class="bg-white">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light navbarbg border-bottom sticky-top">
       <a class="navbar-brand" href="#"
         ><i
           class="fab fa-linkedin fa-lg"
@@ -38,7 +40,7 @@
       ></button>
       <form class="form-inline">
         <input
-          class="form-control searche"
+          class="form-control searche mr-5"
           type="search"
           placeholder="Arama Yap"
           aria-label="Search"
@@ -48,35 +50,35 @@
         <ul class="navbar-nav mr-auto ml-4">
           <li class="nav-item active mr-3">
             <a class="nav-link" href="#"
-              ><i class="fas fa-home fa-lg" style="color: black">
+              ><i class="fas fa-home fa-lg text-center" style="color: black">
                 <div class="menutext" style="color: black">Ana Sayfa</div></i
               >
             </a>
           </li>
           <li class="nav-item active mr-4">
             <a class="nav-link" href="#"
-              ><i class="fas fa-user-friends fa-lg">
+              ><i class="fas fa-user-friends text-center fa-lg">
                 <div class="menutext">Ağım</div></i
               >
             </a>
           </li>
           <li class="nav-item active mr-2">
             <a class="nav-link" href="#"
-              ><i class="fas fa-briefcase fa-lg">
+              ><i class="fas fa-briefcase text-center fa-lg">
                 <div class="menutext">İş İlanları</div></i
               >
             </a>
           </li>
           <li class="nav-item active mr-1">
             <a class="nav-link" href="#"
-              ><i class="fas fa-comment-dots fa-lg">
+              ><i class="fas fa-comment-dots text-center fa-lg">
                 <div class="menutext">Mesajlaşma</div></i
               >
             </a>
           </li>
           <li class="nav-item active mr-1">
             <a class="nav-link" href="#"
-              ><i class="fas fa-bell fa-lg">
+              ><i class="fas fa-bell text-center fa-lg">
                 <div class="menutext">Bildirimler</div></i
               >
             </a>
@@ -92,7 +94,8 @@
               aria-expanded="false"
             >
               <img
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQFpMjVJ_N2wRQ/profile-displayphoto-shrink_100_100/0/1582787654653?e=1616630400&v=beta&t=C1X2NxhcN0R0GmELl1Ew7BeOoyGbwJXCw8c7lHm6XuA"
+                class="rounded-circle"
+                src="https://media-exp1.licdn.com/dms/image/C5603AQHFCOBSoxsDnQ/profile-displayphoto-shrink_200_200/0/1646921044612?e=1655337600&v=beta&t=A6VBxNr4cMB4eqRWP8P0iYi-_0VAW2j27TSFukyzzFU"
                 style="
                   width: 25px;
                   height: 25px;
@@ -107,12 +110,12 @@
           </li>
           <li class="nav-item active border-left">
             <a class="nav-link ml-4 mr-2" href="#"
-              ><i class="fas fa-th fa-lg"> <div class="menutext">İş</div></i>
+              ><i class="fas fa-th text-center fa-lg"> <div class="menutext">İş</div></i>
             </a>
           </li>
           <li class="nav-item active">
             <a class="nav-link" href="#"
-              ><i class="fas fa-chalkboard fa-lg">
+              ><i class="fas fa-chalkboard text-center fa-lg">
                 <div class="menutext">İş İlanı Yayınla</div></i
               >
             </a>
@@ -120,11 +123,13 @@
         </ul>
       </div>
     </nav>
+  </div> 
+    </div>
 
-    <div>
+    <div class="container mt-3">
       <div class="row">
         <!-- sol panel -->
-        <div class="">
+        <div class="col-sm-3">
           <!-- sol panel -->
           <div class="card" style="width: 14rem">
             <div
@@ -325,7 +330,7 @@
 
         <!-- orta panel -->
         <div
-          class="col-3"
+          class="col-sm-6"
           style=""
         >
           <div class="card">
@@ -542,7 +547,7 @@
         </div>
 
         <!-- sağ panel -->
-        <div class="">
+        <div class="col-sm-3">
           <div class="card" style="width: 19rem">
             <div class="card-header bg-white border-0">
               <span>Akışınıza ekleyin</span

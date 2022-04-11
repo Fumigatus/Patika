@@ -36,3 +36,21 @@ body{
 .dot{
     font-size: 50%;
 }
+
+h4 a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a{
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.right-menu-button{
+    margin-bottom: 0.5rem;
+}
+
+.list-inline-item a{
+    text-decoration: none;
+}

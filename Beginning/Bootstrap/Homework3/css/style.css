@@ -10,6 +10,11 @@ input.searche {
   max-width: 500px;
   background-color: #eef3f8;
   border: 0;
+  padding-left: 2rem;
+}
+
+.navp{
+  border: 2px solid white;
 }
 
 input.searche::placeholder {
@@ -19,6 +24,8 @@ input.searche::placeholder {
   background-repeat: no-repeat;
   background-size: 7%;
   background-position: 4%;
+  position: absolute;
+  
 }
 
 .body {
